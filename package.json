@@ -1,0 +1,20 @@
+{
+  "name": "web-scraper-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "controllerFunctions.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
